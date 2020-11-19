@@ -23,7 +23,7 @@ public class ClassC {
     public void method3() {
         List<Integer> intNumb = new ArrayList<>();
         for (int i = 0; i <= 4; i++) {
-            intNumb.add(rand.nextInt(70));
+            intNumb.add(rand.nextInt(50));
         }
         Collections.sort(intNumb);
         System.out.println("რიცხვები ზრდადობით: " + intNumb);
